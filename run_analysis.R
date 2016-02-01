@@ -41,8 +41,10 @@
   #Replaces numbers in activity column with names of activities from activity_labels.txt, reformatted for readability
   
   meandata <- accelerometerdata %>% group_by(subject, activity) %>% summarise_each(funs(mean))
-  #Creates data frame with means 
-  #write.table(accelerometerdata, "accelerometerdata.txt", row.names = FALSE)
-  #write.table(meandata, "meandata.txt", row.names = FALSE)
+  #Creates data frame with means.
+
+  write.table(accelerometerdata, "accelerometerdata.txt", row.names = FALSE)
+  write.table(meandata, "meandata.txt", row.names = FALSE)
+  #Creates .txt files in directory for both data frames.
   
   
