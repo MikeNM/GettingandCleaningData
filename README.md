@@ -35,4 +35,9 @@ Good luck!
 _______
 My code takes the data from UCI and compiles one dataframe with their test and train datasets for x and for y and attaches the appropriate subject and activity identifiers to each set of observations.  It replaces the numerical activity identifiers with words to describe the activities (e.g. "walking" or "standing").  It also replaces "t" and "f" at the beginning of variable names with "time." and "frequency." to make their meaning more clear, and replaces dashes (i.e. "-") in variable names with periods (i.e. ".") to make the data easier to use.  This data is written to a dataframe called accelerometerdata.
   
-Finally, it creates a second dataset with the averages for each combination of subject and activity, which is written to a dataframe called meandata.
+It creates a second dataset with the averages for each combination of subject and activity, which is written to a dataframe called meandata.  
+  
+Both of these dataframes are written as space delimitted .txt files in the working directory.  
+  
+Those who do not have the data from UCI can use the code in the clumsily named "AddRawDatatoDir.R" file to download and unzip the data.
+
