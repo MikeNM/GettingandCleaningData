@@ -40,6 +40,7 @@
   rm(activitylabels, activities)
   #Replaces numbers in activity column with names of activities from activity_labels.txt, reformatted for readability
   
+  require("dplyr")
   meandata <- accelerometerdata %>% group_by(subject, activity) %>% summarise_each(funs(mean))
   #Creates data frame with means.
 
