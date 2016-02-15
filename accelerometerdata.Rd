@@ -1,5 +1,3 @@
-Title: Code Book
-
 \name{accelerometerdata}
 \alias{accelerometerdata}
 \docType{data}
