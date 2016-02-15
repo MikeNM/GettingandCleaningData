@@ -98,13 +98,13 @@ _________
 *`frequency.bodybodygyrojerkmag.mean` a numeric vector    
 *`frequency.bodybodygyrojerkmag.std` a numeric vector    
 *`frequency.bodybodygyrojerkmag.meanfreq` a numeric vector    
-*`angletbodyaccmean,gravity` a numeric vector    
-*`angletbodyaccjerkmean,gravitymean` a numeric vector    
-*`angletbodygyromean,gravitymean` a numeric vector    
-*`angletbodygyrojerkmean,gravitymean` a numeric vector    
-*`anglex,gravitymean` a numeric vector    
-*`angley,gravitymean` a numeric vector    
-*`anglez,gravitymean` a numeric vector    
+*`angletbodyaccmean.gravity` a numeric vector    
+*`angletbodyaccjerkmean.gravitymean` a numeric vector    
+*`angletbodygyromean.gravitymean` a numeric vector    
+*`angletbodygyrojerkmean.gravitymean` a numeric vector    
+*`anglex.gravitymean` a numeric vector    
+*`angley.gravitymean` a numeric vector    
+*`anglez.gravitymean` a numeric vector    
  
 Details
 ________
