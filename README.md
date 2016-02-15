@@ -1,7 +1,7 @@
 README
 ======
 
-Instructions
+<b>Instructions</B>
 ____________
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
@@ -31,7 +31,7 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Good luck!
 
-My Code
+<b>My Code</b>
 _______
 My code takes the data from UCI and compiles one dataframe with their test and train datasets for x and for y and attaches the appropriate subject and activity identifiers to each set of observations.  It replaces the numerical activity identifiers with words to describe the activities (e.g. "walking" or "standing").  It also replaces "t" and "f" at the beginning of variable names with "time." and "frequency." to make their meaning more clear, and replaces dashes (i.e. "-") in variable names with periods (i.e. ".") to make the data easier to use.  This data is written to a dataframe called accelerometerdata.
   
