@@ -108,7 +108,7 @@ _________
  
 Details
 ________
-Values for all non-identifier variables (those other than subject and activity) are normalized.  Those beginning with “time.” are time domain, those that begin with “frequency.” are frequency domain. ~~
+Values for all non-identifier variables (those other than subject and activity) are normalized [-1,1].  Those beginning with “time.” are time domain, those that begin with “frequency.” are frequency domain.
 
 Source
 ______
