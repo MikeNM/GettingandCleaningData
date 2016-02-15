@@ -102,9 +102,9 @@ _________
 *`angletbodyaccjerkmean.gravitymean` a numeric vector    
 *`angletbodygyromean.gravitymean` a numeric vector    
 *`angletbodygyrojerkmean.gravitymean` a numeric vector    
-*`anglex.gravitymean` a numeric vector    
-*`angley.gravitymean` a numeric vector    
-*`anglez.gravitymean` a numeric vector    
+*`anglexgravitymean` a numeric vector    
+*`angleygravitymean` a numeric vector    
+*`anglezgravitymean` a numeric vector    
  
 Details
 ________
