@@ -21,6 +21,7 @@
   features <- gsub("^t", "time.", features)
   features <- gsub("^f", "frequency.", features)
   features <- gsub("-", ".", features)
+  features <- gsub(",", ".", features)
   features <- lapply(features, tolower)
   cols <- c("subject", "activity", features)
   colnames(accelerometerdata) <- cols
