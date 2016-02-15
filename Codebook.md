@@ -1,21 +1,17 @@
 Code Book
 ==========
 
-accelerometerdata
-==================
-
-
-Data
+<b>Data</b>
 ____
  The data in this dataset is taken from the Human Activity Recognition Using Smartphones dataset from the UCI Machine Learning repository.  The original data collectors had subjects wear a Samsung Galaxy II S on their waists while they performed various activities and collected the output from the phone's gyroscope and accelerometer.
   
     
-Format
+<b>Format</b>
 _______
   A data frame with 10299 observations on the following 88 variables.
   
     
-Variables
+<b>Variables</b>
 _________
 * `subject`a numeric vector    
 * `activity` a factor with levels: `walking`, `walkingupstairs`, `walkingdownstairs`, `sitting`, `standing`, `laying`  
@@ -98,23 +94,23 @@ _________
 * `frequency.bodybodygyrojerkmag.mean` a numeric vector    
 * `frequency.bodybodygyrojerkmag.std` a numeric vector    
 * `frequency.bodybodygyrojerkmag.meanfreq` a numeric vector    
-* `angletbodyaccmean,gravity` a numeric vector    
-* `angletbodyaccjerkmean,gravitymean` a numeric vector    
-* `angletbodygyromean,gravitymean` a numeric vector    
-* `angletbodygyrojerkmean,gravitymean` a numeric vector    
-* `anglexgravitymean` a numeric vector    
-* `angleygravitymean` a numeric vector    
-* `anglezgravitymean` a numeric vector      
+* `angletbodyaccmean.gravity` a numeric vector    
+* `angletbodyaccjerkmean.gravitymean` a numeric vector    
+* `angletbodygyromean.gravitymean` a numeric vector    
+* `angletbodygyrojerkmean.gravitymean` a numeric vector    
+* `anglex.gravitymean` a numeric vector    
+* `angley.gravitymean` a numeric vector    
+* `anglez.gravitymean` a numeric vector      
  
-Details
+<b>Details</b>
 ________
 Values for all non-identifier variables (those other than subject and activity) are normalized [-1,1].  Those beginning with “time.” are time domain, those that begin with “frequency.” are frequency domain.
 
-Source
+<b>Source</b>
 ______
 Human Activity Recognition Using Smartphones Data Set. URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. Accessed 02/01/2016
 
-References
+<b>References</b>
 __________
     Time Domain, Wikipedia, URL: https://en.wikipedia.org/wiki/Time_domain Accessed 02/03/2016
 	Frequency Domain, Wikipedia, URL: https://en.wikipedia.org/wiki/Frequency_domain
